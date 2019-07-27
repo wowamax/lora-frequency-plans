@@ -32,6 +32,31 @@ uplink-channels:
   min-data-rate: 0
   max-data-rate: 5
   radio: 1
+downlink-channels:
+- frequency: 500300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 500500000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 500700000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 500900000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 501100000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 501300000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 501500000
+  min-data-rate: 0
+  max-data-rate: 5
+- frequency: 501700000
+  min-data-rate: 0
+  max-data-rate: 5
 radios:
 - enable: true
   chip-type: SX1255
@@ -45,9 +70,9 @@ radios:
   frequency: 471400000
   rssi-offset: -176
 clock-source: 1
-rx2-channel:                   # Rx2 channel (optional)
+rx2-channel:
   frequency: 505300000
   min-data-rate: 0
   max-data-rate: 5
   radio: 0
-rx2-default-data-rate: 0       # Default data rate index of Rx2 (optional)
+  
