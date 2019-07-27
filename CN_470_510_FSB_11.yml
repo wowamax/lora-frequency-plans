@@ -45,3 +45,9 @@ radios:
   frequency: 471400000
   rssi-offset: -176
 clock-source: 1
+rx2-channel:                   # Rx2 channel (optional)
+  frequency: 505300000
+  min-data-rate: 0
+  max-data-rate: 5
+  radio: 0
+rx2-default-data-rate: 0       # Default data rate index of Rx2 (optional)
