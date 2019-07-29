@@ -74,3 +74,4 @@ rx2-channel:
   frequency: 505300000
   min-data-rate: 0
   max-data-rate: 5
+rx2-default-data-rate：5
