@@ -45,5 +45,3 @@ radios:
   frequency: 471400000
   rssi-offset: -176
 clock-source: 1
-rx1-default-data-rate: 5
-rx2-default-data-rate: 5
