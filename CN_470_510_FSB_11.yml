@@ -77,11 +77,11 @@ radios:
   chip-type: SX1255
   frequency: 471400000
   rssi-offset: -176
- - enable: true
+- enable: true
   chip-type: SX1255
   frequency: 500600000
   rssi-offset: -176
- - enable: true
+- enable: true
   chip-type: SX1255
   frequency: 501400000
   rssi-offset: -176
